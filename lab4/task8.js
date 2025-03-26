@@ -2,7 +2,7 @@ const form = document.querySelector(".login-form");
 
 function validateForm(inputs) {
   let isValid = true;
-  console.log("element", [...inputs]);
+
   [...inputs].forEach((element) => {
     if (!element.value) {
       isValid = false;

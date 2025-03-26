@@ -1,6 +1,5 @@
 document.body.addEventListener("click", (event) => {
   if (event.target.id === "task3-btn") {
-    console.log("jfd", event.target);
     const input = document.getElementById("task3-input");
 
     if (event.target.classList.contains("hide")) {
